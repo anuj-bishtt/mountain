@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+@font-face {
+    font-family: Lato-italic;
+    src: url(../fonts/Lato-BlackItalic.ttf);
+}
+
+@font-face {
+    font-family: Bebas;
+    src: url(../fonts/Bebas-Regular.ttf);
+}
+a{
+    font-family: Lato-italic; 
+}
+header {
+    background-image: url(../images/photo-1459666644539-a9755287d6b0.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+
+}
+
+/* .outer{
+    background-image: url(../images/Layer627.jpg);
+    background-color: rgba(248, 247, 216, 0.7);
+    opacity: 20;
+    height: 80vh;
+    
+} */
+.container {
+    width: 100vw;
+    display: flex;
+}
+
+.logo {
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+.logo img {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.navbar-links {
+    margin-top: 15px;
+    margin-left: 60vw;
+}
+
+.navbar-links ul li {
+    display: inline;
+}
+
+.navbar-links a {
+    margin-left: 50px;
+    color: #fefeff;
+}
+
+.main-heading-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.main-heading-outer h1 {
+    font-size: 5rem;
+    line-height: 4rem;
+    font-family: Bebas;
+}
+
+.los {
+    color: #4d4d4d;
+    font-family: Bebas;
+    font-size: medium;
+}
+
+.mount {
+    color: #414f6b;
+    font-family: Bebas;
+    font-size: medium;
+}
+
+.start-links {
+    display: flex;
+    height: 60px;
+    align-items: center;
+}
+
+.scd-links a {
+    color: #4d4d4d;
+    float: right;
+}
+
+.zero-one {
+    background-image: url(../images/peak.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    background-size: cover;
+    width: 99vw;
+    height: 120vh;
+}
+
+.peak {
+    display: flex;
+}
+
+.num {
+    font-size: 9rem;
+    color: #6b7b96;
+    font-family: 'Oswald', sans-serif;
+}
+
+.history {
+    color: #414f6b;
+    font-size: 2rem;
+    margin: 60px 0px 0px -25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.peak {
+    margin-left: 200px;
+}
+
+.peak p {
+    margin: 180px 0px 0px -270px;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    margin-top: 378px;
+}
+
+.images img {
+    height: 150px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+.navigation i {
+
+    margin-right: 10px;
+}
+
+.caraousel {
+    height: 34vh;
+    width: 99vw;
+    background-color: #414f6b;
+    opacity: .7;
+}
+
+.active {
+    color: #fff;
+}
+
+.non-act {
+    color: #fff;
+}
+
+.zero-two {
+    display: flex;
+    justify-content: center;
+}
+
+.peak-two {
+    display: flex;
+}
+
+.peak-two p {
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+.mounts-opt {
+    display: flex;
+    background-color: #414f6b;
+}
+
+.mount1 {
+    background-color: #b0b4be;
+    color: #414f6b;
+    margin-right: 40px;
+    padding: 0px 40px;
+    margin-left: 100px;
+    font-family: Oswald;
+    text-decoration: underline;
+}
+
+.mount2 {
+    color: #fff;
+    font-family: Oswald;
+}
+
+.mountain-links {
+    background-image: url(../images/photo-1417021423914-070979c8eb34.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.calendar {
+    background-color: #fff;
+    opacity: .8;
+    width: 330px;
+    height: 230px;
+    margin: 80px 0px 0px 200px;
+}
+
+.calendar h1 {
+    padding-top: 20px;
+    margin-left: 60px;
+    color: #414f6b;
+    font-family: Oswald;
+}
+
+.calendar-list {
+    display: flex;
+    justify-content: center;
+}
+
+.calendar-list li {
+    margin-left: 30px;
+    font-family: Oswald;
+}
+
+.dec {
+    margin: 20px 0px;
+}
+
+footer {
+    background-color: #414f6b;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+}
+
+footer h5 {
+    color: #63769d !important;
+}
+
+.copyright {
+    margin-left: 40vw;
+    font-family: Lato-italic; 
+}
